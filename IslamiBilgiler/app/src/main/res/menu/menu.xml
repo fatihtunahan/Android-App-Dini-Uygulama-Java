@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/menu_item_home"
+       android:icon="@drawable/ic_home"
+       android:title="Home"
+       app:showAsAction="always" />
+
+   <item
+       android:id="@+id/menu_item_hakkimizda"
+       android:icon="@drawable/ic_hakkimizda"
+       android:title="Hakkimizda"
+       app:showAsAction="always" />
+
+   <item
+       android:id="@+id/menu_item_cikis"
+       android:icon="@drawable/ic_cikis"
+       android:title="Çıkış"
+       app:showAsAction="always" />
+</menu>

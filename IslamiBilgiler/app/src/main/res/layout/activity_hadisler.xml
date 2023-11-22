@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hadisler">
+
+    <TextView
+        android:id="@+id/SiteHadisler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autoLink="all"
+        android:text="https://islamansiklopedisi.org.tr/kitabet--hadis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:text="Hadisler Hakkında Daha Fazla Bilgi"
+        app:layout_constraintBottom_toTopOf="@+id/SiteHadisler"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-İslâm, güzel ahlâktır. " />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Kolaylaştırınız, güçleştirmeyiniz, müjdeleyiniz, nefret ettirmeyiniz. " />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Hayra vesile olan, hayrı yapan gibidir." />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-İnsanların Peygamberlerden öğrenegeldikleri sözlerden biri de: &quot;Utanmadıktan sonra dilediğini yap!&quot; sözüdür. " />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Mümin, bir delikten iki defa sokulmaz.(Mümin, iki defa aynı yanılgıya düşmez) " />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Allah, sizden birinizin yaptığı işi, ameli ve görevi sağlam ve iyi yapmasından hoşnut olur. " />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Zarar vermek ve zarara zararla karşılık vermek yoktur. " />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Müslüman, insanların elinden ve dilinden emin olduğu kimsedir. " />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Hiçbiriniz kendisi için istediğini (mü'min) kardeşi için istemedikçe (gerçek) iman etmiş olamaz. " />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-İman etmedikçe cennete giremezsiniz, birbirinizi sevmedikçe de (gerçek anlamda) iman etmiş olamazsınız. " />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Allah'ın rızası, anne ve babanın rızasındadır. Allah'ın öfkesi de anne babanın öfkesindedir. " />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Üç dua vardır ki, bunlar şüphesiz kabul edilir: Mazlumun duası, misafirin duası ve babanın evladına duası.  -Hiçbir baba, çocuğuna, güzel terbiyeden daha üstün bir hediye veremez. " />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Sizin en hayırlılarınız, hanımlarına karşı en iyi davrananlarınızdır. " />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Küçüklerimize merhamet etmeyen, büyüklerimize saygı göstermeyen bizden değildir. " />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Cebrâil bana komşu hakkında o kadar çok tavsiyede bulundu ki; ben (Allah Teâlâ) komşuyu komşuya mirasçı kılacak zannettim." />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Her insan hata eder. Hata işleyenlerin en hayırlıları tevbe edenlerdir. " />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:text="-Söz taşıyanlar (cezalarını çekmeden ya da affedilmedikçe) cennete giremezler. " />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Bizi aldatan bizden değildir. " />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-İşçiye ücretini, (alnının) teri kurumadan veriniz.  " />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

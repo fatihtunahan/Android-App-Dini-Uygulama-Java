@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Namaz"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="220dp"
+        android:text="NAMAZ"
+        app:layout_constraintBottom_toTopOf="@+id/islam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Abdest"
+        app:layout_constraintTop_toBottomOf="@+id/HadisiSerif" />
+
+    <Button
+        android:id="@+id/kuraniKerim"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="75dp"
+        android:background="@color/purple_500"
+        android:text="KUR'AN-I KERİM"
+        app:layout_constraintBottom_toBottomOf="@+id/HadisiSerif"
+        app:layout_constraintEnd_toStartOf="@+id/HadisiSerif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/HadisiSerif"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/Abdest"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="75dp"
+        android:text="ABDEST"
+        app:layout_constraintBottom_toBottomOf="@+id/Namaz"
+        app:layout_constraintEnd_toStartOf="@+id/Namaz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Namaz" />
+
+    <Button
+        android:id="@+id/HadisiSerif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="27dp"
+        android:text="HADİS-İ ŞERİF"
+        app:layout_constraintBottom_toTopOf="@+id/Namaz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kuraniKerim"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_77f163738a3f919bf93ebe694ab9477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/islam"
+        android:layout_width="125dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="38dp"
+        android:text="İSLAM DİNİ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Namaz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

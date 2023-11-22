@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">İslami Bilgiler</string>
+    <string name="Site">https://www.islamveihsan.com/hz-muhammed-s-a-v-kimdir.html</string>
+    <string name="SiteHadis">https://islamansiklopedisi.org.tr/hadis</string>
+    <string name="SiteHadisler">https://islamansiklopedisi.org.tr/kitabet--hadis</string>
+    <string name="instagram">instagram.com/taloneff</string>
+    <string name="twitch">twitch.tv/talonef</string>
+</resources>

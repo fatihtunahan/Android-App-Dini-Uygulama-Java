@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Sureler">
+
+    <TextView
+        android:id="@+id/sureler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="31dp"
+        android:text="SURELER"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kafirun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="47dp"
+        android:text="KAFİRUN SURESİ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dualar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="97dp"
+        android:text="DUALAR"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sureler"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="22dp"
+        android:text="FİL SURESİ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asr" />
+
+    <Button
+        android:id="@+id/kunut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="KUNUT DUASI"
+        app:layout_constraintStart_toStartOf="@+id/firli"
+        app:layout_constraintTop_toBottomOf="@+id/firli" />
+
+    <Button
+        android:id="@+id/firli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="RABBENAĞ FİRLİ"
+        app:layout_constraintBottom_toBottomOf="@+id/kureyş"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kureyş" />
+
+    <Button
+        android:id="@+id/fatiha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="21dp"
+        android:text="FATİHA SURESİ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sureler" />
+
+    <Button
+        android:id="@+id/barik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="6dp"
+        android:text="ALLAHÜMME BARİK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salli" />
+
+    <Button
+        android:id="@+id/tahıyyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="22dp"
+        android:text="TAHIYYAT"
+        app:layout_constraintBottom_toTopOf="@+id/atina"
+        app:layout_constraintStart_toStartOf="@+id/atina"
+        app:layout_constraintTop_toBottomOf="@+id/sübhaneke" />
+
+    <Button
+        android:id="@+id/ihlastxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="23dp"
+        android:text="İHLAS SURESİ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kevser" />
+
+    <Button
+        android:id="@+id/kureyş"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="21dp"
+        android:text="KUREYŞ SURESİ"
+        app:layout_constraintBottom_toTopOf="@+id/kafirun"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/atina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="23dp"
+        android:text="RABBENA ATİNA"
+        app:layout_constraintBottom_toTopOf="@+id/firli"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/sübhaneke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="SÜBHANEKE"
+        app:layout_constraintStart_toStartOf="@+id/barik"
+        app:layout_constraintTop_toBottomOf="@+id/barik" />
+
+    <Button
+        android:id="@+id/salli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="ALLAHÜMME SALLİ"
+        app:layout_constraintEnd_toEndOf="@+id/dualar"
+        app:layout_constraintStart_toEndOf="@+id/dualar"
+        app:layout_constraintTop_toBottomOf="@+id/dualar" />
+
+    <Button
+        android:id="@+id/asr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="26dp"
+        android:text="ASR SURESİ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ihlastxt" />
+
+    <Button
+        android:id="@+id/kevser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="21dp"
+        android:text="KEVSER SURESİ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fatiha" />
+</androidx.constraintlayout.widget.ConstraintLayout>
